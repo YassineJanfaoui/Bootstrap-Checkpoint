@@ -1,0 +1,50 @@
+.cover{
+    width: 100%;
+    height: 300px;
+    background: center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover
+}
+.photo{
+    position: relative;
+    top: -100px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+}
+img{
+    vertical-align: middle
+}
+.logos{
+    color: #2196F3;
+    position: relative;
+    top: -50px;
+    display: block;
+    text-align: center;
+}
+.logos :hover{
+    color: gray;
+}
+.basic{
+    display:block;
+    text-align: center;
+}
+.BT{
+  font-weight: bold
+}
+.titles{
+color: #2196F3
+}
+
+.int{
+    transition: all .5s ease-in;
+}
+.int:hover {
+    transform: rotateX(360deg);
+    color: #2196F3;
+}
+.fab{
+    margin: 5px;
+}
